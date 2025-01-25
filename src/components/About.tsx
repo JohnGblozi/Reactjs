@@ -31,7 +31,7 @@ const aboutSelections = [
 
 const About = () => {
   return (
-    <div className="bg-base-300 p-10 mb-4 " id="About">
+    <div className="bg-base-300 p-10 mb-4 pt-[80px]" id="About">
         <Title title ="A propos  "/>
         <div className=" flex justify-center items-center">
             <div className="hidden md:block">

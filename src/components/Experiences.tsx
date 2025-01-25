@@ -54,7 +54,7 @@ const parcoursExperiences = () => [
 
 const Experiences = () => {
   return (
-    <div id="Experiences" >
+    <div id="Experiences" className="pt-[80px]" >
       <Title title ="Expériences" />
       <div className="flex flex-col-reverse md:flex-row justify-center items-center gap-4">
         <div className=" flex  flex-wrap justify-center items-center gap-4 mt-4 md:w-1/3 md:mt-4 " >

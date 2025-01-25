@@ -28,7 +28,7 @@ const projects = [
 
 const Projects = () => {    
     return (
-        <div className="mt-10" id="Projects"> 
+        <div className="mt-10 pt-[80px]" id="Projects"> 
             <Title title ="Projects" />
             <div className="grid  md:grid-cols-2 gap-4  mt-10">
                 {

@@ -35,7 +35,7 @@ const Navbar = () => {
 
   return (
     <div
-      className={`flex items-center justify-between p-4 mb-5 sticky top-0 z-50 transition-all duration-400 ${
+      className={`flex items-center justify-between p-4  sticky top-0 z-50 transition-all duration-400 ${
         scrolled ? "bg-info text-white" : "bg-transparent text-black"
       }`}
     >
