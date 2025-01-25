@@ -31,9 +31,9 @@ const aboutSelections = [
 
 const About = () => {
   return (
-    <div className="bg-base-300 p-10 mb-10 md:mb-32" id="About">
+    <div className="bg-base-300 p-10 mb-4 " id="About">
         <Title title ="A propos  "/>
-        <div className="md:h-screen flex justify-center items-center">
+        <div className=" flex justify-center items-center">
             <div className="hidden md:block">
                 <img src={img} alt="" className="w-96 max-h-full objet-cover  rounded-xl  " />
             </div>

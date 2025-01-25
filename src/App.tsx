@@ -8,23 +8,23 @@ import Footer from "./components/Footer";
 export default function App() {
   return (
     <div>
-      <div className="p-5 md:px-[8%]">
-        <Navbar/>
-        <Home/>
-      </div>
+        <Navbar />
 
-      <About/>
+      <div className="p-5 md:px-[8%]">
+        <Home />
+      </div>
+      <div>
+        <About />
+      </div>
 
       <div className="p-5 md:px-[8%]">
         <Experience />
       </div>
-    <div className="p-5 md:px-[8%]">
+      <div className="p-5 md:px-[8%]">
         <Projects />
-    </div>
-      
-    <Footer />
+      </div>
 
-
+      <Footer />
     </div>
-  )
+  );
 }
