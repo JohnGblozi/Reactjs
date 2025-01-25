@@ -4,7 +4,7 @@ import imgHTML from "../assets/techno/html.png";
 import imgCSS from "../assets/techno/css.png";
 import imgJS from "../assets/techno/js.png";
 import imgREACT from "../assets/techno/react.png";
-import imgTAILWIND from "../assets/techno/symfony.png";
+import imgSymfony from "../assets/techno/symfony.png";
 import imgBootstrap from "../assets/techno/Bootstrap_.svg";
 
 import meta from "../assets/companies/meta.png";
@@ -18,7 +18,7 @@ const logo = [
     { id:3, name: "JavScript", image:imgJS },
     { id:4, name: "React", image:imgREACT },
     { id:5, name: "Bootstrap", image:imgBootstrap },
-    { id:6, name: "Tailwind CSS", image:imgTAILWIND },
+    { id:6, name: "Symfony", image:imgSymfony },
 ];
 
 const parcoursExperiences = () => [

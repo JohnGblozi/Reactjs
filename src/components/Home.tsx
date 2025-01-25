@@ -4,8 +4,11 @@ import img from "../assets/img.jpg";
 const Home = () => {
   return (
     <div
-      className=" h-screen flex flex-col-reverse md:flex-row justify-center items-center md:my-32 my-10 "
+      className="flex flex-col-reverse md:flex-row justify-center items-center  "
       id="Home"
+      style={{
+        height: "calc(100vh - 100px)", 
+      }}
     >
       <div className="flex flex-col ">
         <h1 className="text-5xl md:text-6xl font-bold text-center md:text-left mt-4 md:mt-0">
