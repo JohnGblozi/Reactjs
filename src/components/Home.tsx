@@ -8,7 +8,7 @@ return (
 
         <div className="flex flex-col ">
             <h1 className="text-5xl md:text-6xl font-bold text-center md:text-left mt-4 md:mt-0">
-                Bonjour, <br />
+                Bonjour<br />
                 <span className="text-info">JohnGblozi</span>
             </h1>
             <p className="my-4 text-md text-center md:text-left">
